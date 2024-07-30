@@ -12,11 +12,14 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to ="/" className="navbar-logo">
-            DR. TRIM <i className="fab fa-typo3" />
+            DR. TRIM <i className="fa-solid fa-scissors" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            
+          </ul>
         </div>
       </nav>
     </>
