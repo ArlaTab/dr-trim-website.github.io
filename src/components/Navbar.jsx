@@ -16,7 +16,7 @@ function Navbar() {
     } else {
       setButton(true);
     }
-  };
+  }; 
 
   useEffect(() => {
     showButton()
@@ -28,7 +28,8 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to ='/' className='navbar-logo'>
+          <Link to ='/' className='navbar-logo' onClick=
+          {closeMobileMenu}>
             DR. TRIM <i className='fa-solid fa-scissors' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -48,6 +49,11 @@ function Navbar() {
             <li className='nav-item'>
               <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
               Contact
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/get-a-quote' className='nav-links-mobile' onClick={closeMobileMenu}>
+              Get a Quote
               </Link>
             </li>
           </ul>
