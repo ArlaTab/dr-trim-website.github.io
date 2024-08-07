@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from
 import './App.css';
 import Home from './components/pages/Home';
 import HeroSection from './components/HeroSection';
+import Cards from './components/Cards';
 
 
 
@@ -17,6 +18,7 @@ function App() {
         {Home} />
       </Routes>
       <HeroSection />
+      < Cards />
     </Router>
   );
 }
