@@ -9,9 +9,9 @@ function CardItem(props) {
         props.path}>
           <figure className='cards__item__pic-wrap'
           data-category={props.label}>
-            <img 
+            <input type='image' img 
               src={props.src} 
-              alt='Travel Image'
+              alt='Work Image'
               className='cards__item__img'
             />
           </figure>
