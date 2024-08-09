@@ -6,6 +6,10 @@ import './App.css';
 import Home from './components/pages/Home';
 import HeroSection from './components/HeroSection';
 import Cards from './components/Cards';
+import Services from './components/pages/Services';
+import Contact from './components/pages/Contact';
+import Getaquote from './components/pages/Getaquote';
+
 
 
 
@@ -14,8 +18,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component=
-        {Home} />
+        <Route path='/' element={Home} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/get-a-quote' element={<Getaquote />} />
       </Routes>
       <HeroSection />
       < Cards />
