@@ -9,6 +9,7 @@ import Cards from './components/Cards';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 import Getaquote from './components/pages/Getaquote';
+import Footer from './components/Footer';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       </Routes>
       <HeroSection />
       < Cards />
+    <Footer />
     </Router>
   );
 }
