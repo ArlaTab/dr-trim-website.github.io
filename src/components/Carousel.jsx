@@ -23,12 +23,12 @@ const Carousel = () => {
       <h2>Our Products- Before and After</h2>
       <Slider {...settings}>
         <div className="carousel__item">
-          <img src={require('../images/img-1.jpeg')} alt="Item 1" />
-          <p>Product 1</p>
+          <img src={require('../images/tesla_before.jpeg')} alt="Item 1" />
+          <p>Before- Tesla</p>
         </div>
         <div className="carousel__item">
-          <img src={require('../images/img-2.jpeg')} alt="Item 2" />
-          <p>Product 2</p>
+          <img src={require('../images/tesla_after.jpeg')} alt="Item 2" />
+          <p>After- Tesla</p>
         </div>
         <div className="carousel__item">
           <img src={require('../images/img-3.jpeg')} alt="Item 3" />
