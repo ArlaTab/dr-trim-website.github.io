@@ -1,0 +1,19 @@
+  .carousel {
+    width: 80%; /* Adjust based on your design */
+    margin: 0 auto;
+  }
+  
+  .carousel_card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .carousel_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
