@@ -10,6 +10,7 @@ import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 import Getaquote from './components/pages/Getaquote';
 import Footer from './components/Footer';
+import Carousel from './components/Carousel';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/get-a-quote' element={<Getaquote />} />
       </Routes>
       <HeroSection />
+      <Carousel />
       < Cards />
     <Footer />
     </Router>
