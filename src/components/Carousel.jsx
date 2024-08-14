@@ -15,7 +15,7 @@ const SampleNextArrow = (props) => {
         
         onClick={onClick}
       >
-        <FaArrowRight style={{ color: 'black', fontSize: '30px' }} />
+        <FaArrowRight style={{ color: 'black', fontSize: '40px' }} />
       </div>
     );
   };
@@ -28,7 +28,7 @@ const SampleNextArrow = (props) => {
         
         onClick={onClick}
       >
-        <FaArrowLeft style={{ color: 'black', fontSize: '30px' }} />
+        <FaArrowLeft style={{ color: 'black', fontSize: '40px' }} />
       </div>
     );
   };
@@ -50,11 +50,11 @@ const SampleNextArrow = (props) => {
       <Slider {...settings}>
         <div className="carousel__item">
           <img src={require('../images/tesla_before.jpeg')} alt="Item tesla" />
-          <p>Before- Tesla Steering Wheel Damage</p>
+          <p>Before- Tesla Steering Wheel </p>
         </div>
         <div className="carousel__item">
           <img src={require('../images/tesla_after.jpeg')} alt="Item tesla2" />
-          <p>After- Tesla Steering Wheel Repaired</p>
+          <p>After- Tesla Steering Wheel </p>
         </div>
         <div className="carousel__item">
           <img src={require('../images/img-1.jpeg')} alt="Item blackcouch" />
@@ -62,15 +62,15 @@ const SampleNextArrow = (props) => {
         </div>
         <div className="carousel__item">
           <img src={require('../images/img-1part2.jpeg')} alt="Item blackcouch2" />
-          <p>After-Leather Couch Damage Repaired</p>
+          <p>After-Leather Couch Damage </p>
         </div>
         <div className="carousel__item">
           <img src={require('../images/img-4.jpeg')} alt="Carseat" />
-          <p>Before- Car Seat Damage</p>
+          <p>Before- Car Seat </p>
         </div>
         <div className="carousel__item">
           <img src={require('../images/img-4part2.jpeg')} alt="Carseat2" />
-          <p>After- Car Seat Repaired</p>
+          <p>After- Car Seat </p>
         </div>
         {/* Add more items as needed */}
       </Slider>
