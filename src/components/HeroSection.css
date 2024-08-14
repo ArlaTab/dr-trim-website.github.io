@@ -7,11 +7,15 @@
   }
 
   img {
-    width: 30%;
-    height: 30%;
-    position: center;
-
+    width: 30%;              /* Let the logo take up the full width of the container */
+    height: auto;             /* Maintain the aspect ratio of the logo */
+    max-width: 30%;
+    display: flex;
+    justify-content: center;  /* Center the logo horizontally */
+    align-items: center;           /* Ensure the logo doesn't exceed the container's max-width */
   }
+
+
   
   .hero-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
