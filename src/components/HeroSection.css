@@ -5,6 +5,13 @@
     position: fixed;
     z-index: -1;
   }
+
+  img {
+    width: 30%;
+    height: 30%;
+    position: center;
+
+  }
   
   .hero-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
