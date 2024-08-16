@@ -1,0 +1,29 @@
+
+
+.carousel__section {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.carousel__section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.carousel__item {
+  padding: 10px;
+}
+
+.carousel__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel__item p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #555;
+}
