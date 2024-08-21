@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src='/videos/video-1.mp4' autoPlay loop muted />
+        <video src='/videos/video-2.mp4' autoPlay loop muted />
         <img src={require('../images/logo_final3.png')} alt="logo" />
         <h1>Mobile Automotive Interior Repair</h1>
         <p>Ask for a Quote!</p>

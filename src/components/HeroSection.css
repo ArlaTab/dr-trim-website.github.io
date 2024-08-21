@@ -7,11 +7,17 @@
   }
 
   img {
-    width: 30%;
-    height: 30%;
-    position: center;
-
+    width: 30%;              /* Let the logo take up the full width of the container */
+    height: auto;             /* Maintain the aspect ratio of the logo */
+    max-width: 30%;
+    display: flex;
+    justify-content: center;  /* Center the logo horizontally */
+    align-items: center;   
+    margin-bottom: 80px; /* Space between the logo and the text */
+       /* Ensure the logo doesn't exceed the container's max-width */
   }
+
+
   
   .hero-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
@@ -49,6 +55,18 @@
   
   .fa-play-circle {
     margin-left: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .logo {
+      width: 70%;             /* Adjust logo size for smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+      width: 90%;             /* Further adjust logo size for very small screens */
+    }
   }
   
   @media screen and (max-width: 960px) {
