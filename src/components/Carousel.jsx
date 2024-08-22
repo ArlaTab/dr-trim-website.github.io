@@ -6,7 +6,6 @@ import './Carousel.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 
-
 const SampleNextArrow = (props) => {
     const { className, style, onClick } = props;
     return (
@@ -42,6 +41,8 @@ const SampleNextArrow = (props) => {
       slidesToScroll: 1,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
+      autoplay: true,           // Enables autoplay
+      autoplaySpeed: 3000,
     };
 
   return (
