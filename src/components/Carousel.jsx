@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './Carousel.css';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+
 
 
 const SampleNextArrow = (props) => {
@@ -11,10 +11,14 @@ const SampleNextArrow = (props) => {
     return (
       <div
         className={className}
-        
+        style={{ 
+        ...style, 
+        display: "block", 
+        background: "gray",
+        }}
         onClick={onClick}
       >
-        <FaArrowRight style={{ color: 'black', fontSize: '40px' }} />
+        
       </div>
     );
   };
@@ -24,10 +28,14 @@ const SampleNextArrow = (props) => {
     return (
       <div
         className={className}
-        
+        style={{ 
+        ...style, 
+        display: "block", 
+        background: "gray",
+        }}
         onClick={onClick}
       >
-        <FaArrowLeft style={{ color: 'black', fontSize: '40px' }} />
+        
       </div>
     );
   };
