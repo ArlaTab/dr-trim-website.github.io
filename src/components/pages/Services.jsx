@@ -9,9 +9,9 @@ const ServicesPage = () => {
       <h1>Our Services</h1>
       
       {/* Add more text sections */}
-      <p>We offer a wide range of services to meet your needs. Whether you're looking for professional consulting, high-quality design, or cutting-edge development, we have the expertise to help you achieve your goals.</p>
+      <p>We offer a wide range of services to meet your needs mobile automotive interior repair, providing high-quality services directly to our customers' locations. In addition to automotive interiors, we also offer expert furniture repair services. We have the expertise to help you achieve your goals.</p>
       
-      <p>Our team of experienced professionals is committed to delivering top-notch service and ensuring customer satisfaction. We work closely with our clients to understand their needs and deliver tailored solutions that exceed their expectations.</p>
+      <p>Areas of service include include Salinas, Seaside, Monterey, and Watsonville. </p>
       
       {/* Embed a local video with autoplay and loop */}
       <div className="video-section">

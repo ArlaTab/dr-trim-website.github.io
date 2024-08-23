@@ -8,7 +8,7 @@ const ContactPage = () => {
       <h1>Contact Us</h1>
 
       {/* Add more text sections */}
-      <p>Give us a call at (831)840-0906</p>
+      <p>Give us a call at (831)840-0906!</p>
 
       <p>We'd love to hear from you! Whether you have questions about our services, need support, or want to provide feedback, don't hesitate to reach out.</p>
 
