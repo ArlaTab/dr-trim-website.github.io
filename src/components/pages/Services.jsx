@@ -13,20 +13,14 @@ const ServicesPage = () => {
       
       <p>Our team of experienced professionals is committed to delivering top-notch service and ensuring customer satisfaction. We work closely with our clients to understand their needs and deliver tailored solutions that exceed their expectations.</p>
       
-      {/* Add a video section */}
+      {/* Embed a local video with autoplay and loop */}
       <div className="video-section">
         <h2>Watch Our Service Overview</h2>
         <div className="video-wrapper">
-          {/* Video embed using an iframe */}
-          <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/your-video-id" 
-            title="Service Overview Video" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen
-          ></iframe>
+          <video width="100%" controls autoPlay loop muted>
+            <source src="/videos/video3.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       
