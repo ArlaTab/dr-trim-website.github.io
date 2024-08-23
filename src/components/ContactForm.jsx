@@ -20,39 +20,38 @@ const ContactForm = () => {
       action="https://formspree.io/f/xgvwpnvo"  // Replace with your Formspree endpoint
       method="POST"
     >
-      <label>
-        Name:
         <input 
+          className="footer-input" 
+          placeholder="Your Name"
           type="text" 
           name="name" 
           value={formData.name} 
           onChange={handleChange} 
           required 
         />
-      </label>
-      <br />
-      <label>
-        Email:
         <input 
+          className="footer-input" 
+          placeholder="Your Email"
           type="email" 
           name="email" 
           value={formData.email} 
           onChange={handleChange} 
           required 
         />
-      </label>
-      <br />
-      <label>
-        Message:
         <textarea 
-          name="message" 
+          className="footer-input" 
+          placeholder="Message"
+          name="message"
+          rows="4" 
           value={formData.message} 
           onChange={handleChange} 
           required 
         />
-      </label>
-      <br />
-      <button type="submit">Send</button>
+        <button 
+         type="submit"
+         className='btn--primary btn--medium'>
+            Submit
+        </button>
     </form>
   );
 };

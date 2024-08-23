@@ -2,6 +2,8 @@ import React from 'react';
 import { Button } from './Button';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm';
+
 
 
 function Footer() {
@@ -15,32 +17,7 @@ function Footer() {
           You can call us at (831)840-0906
         </p>
         <div className="input-areas">
-        <form action="https://formspree.io/f/xgvwpnvo" method="POST">  {/* Replace with your actual Formspree endpoint */}
-            <input 
-              type="text" 
-              name="name" 
-              placeholder="Your Name"
-              className="footer-input" 
-              required
-            />
-            <input 
-              type="email" 
-              name="email" 
-              placeholder="Your Email" 
-              className="footer-input" 
-              required 
-            />
-            <textarea 
-              name="message" 
-              placeholder="Your Message" 
-              className="footer-input" 
-              rows="4"
-              required
-            ></textarea>
-            <Button buttonStyle='btn--outline'>
-              Submit
-            </Button>
-          </form>
+          <ContactForm />
         </div>
       </section>
       <div className="footer-links">
