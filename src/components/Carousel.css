@@ -1,9 +1,9 @@
-
-
 .carousel__section {
-  padding: 50px;
+  padding: 100px;
   background-color: #fff;
   text-align: center;
+  align-items: center
+
 }
 
 .carousel__section h2 {
@@ -17,15 +17,20 @@
 }
 
 .carousel__item img {
-  width: 100%;
+  width: 100%; /* Adjust as needed */
+  max-width: none; /* Prevent the image from being constrained by the carousel's default styles */
   height: auto;
-  border-radius: 10px;
+  margin-bottom: 10px; /* Adds some space between the image and the text */
+  align-items: center;
+  
 }
 
 .carousel__item p {
-  margin-top: 10px;
+  max-width: 90%; /* Ensures the text wraps properly within the container */
   font-size: 1.2em;
   color: #555;
+  text-align: center;
+  
 }
 
 
