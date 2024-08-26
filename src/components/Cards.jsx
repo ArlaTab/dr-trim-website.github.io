@@ -1,6 +1,9 @@
 import React from 'react';
-import CardItem from './Carditem';
+import CardItem1 from './Carditem';
+import CardItem2 from './Carditem';
+import CardItem3 from './Carditem';
 import './Cards.css';
+
 
 
 
@@ -12,21 +15,21 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
             <ul className='cards__items'>
-               <CardItem 
+               <CardItem1 
                 src={require('../images/Card1.jpg')}
                 text='Schedule an appointment'
                 label='Contact us'
                 path='/services'
                />
-               <CardItem 
+               <CardItem2 
                 src={require('../images/Card2.jpg')}
-                text='Area of Aervice'
+                text='Areas of Service'
                 label='Mobile'
                 path='/services'
                />
             </ul>
             <ul className='cards__items'>
-               <CardItem 
+               <CardItem3 
                 src={require('../images/Card3.jpg')}
                 text='Receive a Quote'
                 label='Free Quote'
