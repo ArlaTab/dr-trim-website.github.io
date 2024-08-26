@@ -11,11 +11,13 @@ import Contact from './components/pages/Contact';
 import Getaquote from './components/pages/Getaquote';
 import Footer from './components/Footer';
 import Carousel from './components/Carousel';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* This will handle scrolling to the top on route changes */}
       <Navbar />
       <Routes>
         <Route path='/' element={Home} />
