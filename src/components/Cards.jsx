@@ -13,37 +13,26 @@ function Cards() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                <CardItem 
-                src={require('../images/img-9.jpeg')}
-                text='Mobile Automotive Interior Repair'
-                label='Previous Work'
+                src={require('../images/Card1.jpg')}
+                text='Schedule an appointment'
+                label='Contact us'
                 path='/services'
                />
                <CardItem 
-                src={require('../images/img-4.jpeg')}
-                text='See our Before and After Work'
-                label='Before and After'
+                src={require('../images/Card2.jpg')}
+                text='Area of Aervice'
+                label='Mobile'
                 path='/services'
                />
             </ul>
             <ul className='cards__items'>
                <CardItem 
-                src={require('../images/img-3.jpeg')}
-                text='Contact us to schedule an Appointment'
-                label='Appointment'
+                src={require('../images/Card3.jpg')}
+                text='Receive a Quote'
+                label='Free Quote'
                 path='/services'
                />
-               <CardItem 
-                src={require('../images/img-5.jpeg')}
-                text='We travel to you'
-                label='Mobile'
-                path='/services'
-               />
-               <CardItem 
-                src={require('../images/img-home.jpeg')}
-                text='More than 15 years experience'
-                label='Speciality Work'
-                path='/services'
-               />
+          
             </ul>
         </div>
       </div>
