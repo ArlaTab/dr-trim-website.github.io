@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0706813.css",
-    "main.js": "/static/js/main.cc8f0d00.js",
-    "static/media/Card1.jpg": "/static/media/Card1.8b8591750740ee6de7b0.jpg",
-    "static/media/Card3.jpg": "/static/media/Card3.d970386e165ae6ae4b39.jpg",
-    "static/media/logo_final3.png": "/static/media/logo_final3.c827e0dcfd25007edd4a.png",
-    "static/media/img-8.jpeg": "/static/media/img-8.cd3c948fbc78fcb7958c.jpeg",
-    "static/media/img-4part2.jpeg": "/static/media/img-4part2.910d872bafcce36b6f28.jpeg",
-    "static/media/img-2.jpeg": "/static/media/img-2.69d43e18d0eb61ffc0e8.jpeg",
-    "static/media/img-1.jpeg": "/static/media/img-1.74d2eb2ff28dc98d8fa9.jpeg",
-    "static/media/tesla_before.jpeg": "/static/media/tesla_before.1e8e16dbb22618736278.jpeg",
-    "static/media/Card2.jpg": "/static/media/Card2.8fe137c24f0db18c3065.jpg",
-    "static/media/tesla_after.jpeg": "/static/media/tesla_after.6725acecc4e4f763987d.jpeg",
-    "static/media/img-1part2.jpeg": "/static/media/img-1part2.83c6e482fdafa06152ef.jpeg",
-    "static/media/img-4.jpeg": "/static/media/img-4.1ac95c328033df444b39.jpeg",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.d0706813.css.map": "/static/css/main.d0706813.css.map",
-    "main.cc8f0d00.js.map": "/static/js/main.cc8f0d00.js.map"
+    "main.css": "/dr-trim-website/static/css/main.60da7296.css",
+    "main.js": "/dr-trim-website/static/js/main.e9b1ddd7.js",
+    "static/media/Card1.jpg": "/dr-trim-website/static/media/Card1.8b8591750740ee6de7b0.jpg",
+    "static/media/Card3.jpg": "/dr-trim-website/static/media/Card3.d970386e165ae6ae4b39.jpg",
+    "static/media/logo_final3.png": "/dr-trim-website/static/media/logo_final3.c827e0dcfd25007edd4a.png",
+    "static/media/img-8.jpeg": "/dr-trim-website/static/media/img-8.cd3c948fbc78fcb7958c.jpeg",
+    "static/media/img-4part2.jpeg": "/dr-trim-website/static/media/img-4part2.910d872bafcce36b6f28.jpeg",
+    "static/media/img-2.jpeg": "/dr-trim-website/static/media/img-2.69d43e18d0eb61ffc0e8.jpeg",
+    "static/media/img-1.jpeg": "/dr-trim-website/static/media/img-1.74d2eb2ff28dc98d8fa9.jpeg",
+    "static/media/tesla_before.jpeg": "/dr-trim-website/static/media/tesla_before.1e8e16dbb22618736278.jpeg",
+    "static/media/Card2.jpg": "/dr-trim-website/static/media/Card2.8fe137c24f0db18c3065.jpg",
+    "static/media/tesla_after.jpeg": "/dr-trim-website/static/media/tesla_after.6725acecc4e4f763987d.jpeg",
+    "static/media/img-1part2.jpeg": "/dr-trim-website/static/media/img-1part2.83c6e482fdafa06152ef.jpeg",
+    "static/media/img-4.jpeg": "/dr-trim-website/static/media/img-4.1ac95c328033df444b39.jpeg",
+    "static/media/slick.svg": "/dr-trim-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/dr-trim-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dr-trim-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/dr-trim-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/dr-trim-website/index.html",
+    "main.60da7296.css.map": "/dr-trim-website/static/css/main.60da7296.css.map",
+    "main.e9b1ddd7.js.map": "/dr-trim-website/static/js/main.e9b1ddd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0706813.css",
-    "static/js/main.cc8f0d00.js"
+    "static/css/main.60da7296.css",
+    "static/js/main.e9b1ddd7.js"
   ]
 }
