@@ -3,14 +3,11 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 
 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home';
-import HeroSection from './components/HeroSection';
-import Cards from './components/Cards';
+import Home from './components/pages/HomePage';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 import Getaquote from './components/pages/Getaquote';
 import Footer from './components/Footer';
-import Carousel from './components/Carousel';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -20,15 +17,12 @@ function App() {
       <ScrollToTop /> {/* This will handle scrolling to the top on route changes */}
       <Navbar />
       <Routes>
-        <Route path='/' element={Home} />
+        <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/get-a-quote' element={<Getaquote />} />
       </Routes>
-      <HeroSection />
-      <Carousel />
-      < Cards />
-    <Footer />
+      <Footer />
     </Router>
   );
 }
