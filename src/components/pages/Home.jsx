@@ -2,6 +2,9 @@ import Cards from '../Cards';
 import '../../App.css'
 import HeroSection from '../HeroSection'
 import Carousel from '../Carousel';
+import Footer from '../Footer';
+
+
 
 
 function Home () {
@@ -10,6 +13,7 @@ function Home () {
             <HeroSection />
             <Carousel />
             <Cards />
+            <Footer />
         </>
     );
 }

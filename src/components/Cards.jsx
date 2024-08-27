@@ -17,7 +17,7 @@ function Cards() {
                 src={require('../images/Card1.jpg')}
                 text='Schedule an appointment'
                 label='Contact us'
-                path='/services'
+                path='/contact'
                />
                <CardItem
                 src={require('../images/Card2.jpg')}
@@ -31,7 +31,7 @@ function Cards() {
                 src={require('../images/Card3.jpg')}
                 text='Receive a Quote'
                 label='Free Quote'
-                path='/services'
+                path='/get-a-quote'
                />
           
             </ul>
