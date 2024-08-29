@@ -2,20 +2,17 @@ import Cards from '../Cards';
 import '../../App.css'
 import HeroSection from '../HeroSection'
 import Carousel from '../Carousel';
-import Footer from '../Footer';
 
 
 
-
-function Home () {
+const Home = () => {
     return (
-        <>
+        <div>
             <HeroSection />
             <Carousel />
             <Cards />
-            <Footer />
-        </>
+        </div>
     );
-}
+};
 
 export default Home;
