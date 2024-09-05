@@ -3,6 +3,8 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
+
+
 function Hero() {
   return (
     <div className='hero-container'>

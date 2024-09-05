@@ -1,5 +1,5 @@
 :root {
-  --primary: #fff;
+  --primary: #242424;
 }
 
 .btn {
@@ -14,6 +14,7 @@
   background-color: var(--primary);
   color: #fff;
   border: 1px solid var(--primary);
+  border: 2px solid white
 }
 
 .btn--outline {
@@ -38,6 +39,6 @@
 .btn--medium:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  color: #fff;
+  color: #242424;
   transition: 250ms;
 }
