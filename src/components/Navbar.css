@@ -16,8 +16,6 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
-    flex-direction: row; 
-    white-space: nowrap;  
   }
   
   .navbar-logo {
@@ -39,7 +37,7 @@
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 5px;
+    grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -154,7 +152,7 @@
   
     .nav-links-mobile:hover {
       background: #fff;
-      color: #2c83ae;
+      color: #242222;
       transition: 250ms;
     }
  
