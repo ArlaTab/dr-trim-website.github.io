@@ -62,7 +62,7 @@ const SampleNextArrow = (props) => {
           <p>Before- Tesla Steering Wheel </p>
         </div>
         <div className="carousel__item">
-          <img src={require('../images/tesla_after.jpeg')} alt="Item tesla2" />
+          <img src={require('../images/tesla_after.jpeg')} />
           <p>After- Tesla Steering Wheel </p>
         </div>
         <div className="carousel__item">
