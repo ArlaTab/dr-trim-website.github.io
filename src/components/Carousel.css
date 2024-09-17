@@ -2,7 +2,7 @@
   padding: 100px;
   background-color: #fff;
   text-align: center;
-  align-items: center
+  align-items: center;
 
 }
 
@@ -35,11 +35,12 @@
 
 /* For mobile devices */
 @media (max-width: 768px) {
-  .carousel__item {
-    width: 100%; /* Increase size for mobile */
+  .carousel__section {
+    max-width: 100%; /* Full width for mobile */
+    padding: 30px; /* Optional padding for spacing */
   }
 
-  .carousel__item img {
+  .carousel__section img {
     width: 100%; /* Ensure the images take full width */
     height: auto; /* Maintain aspect ratio */
   }
