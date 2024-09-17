@@ -33,4 +33,16 @@
   
 }
 
+/* For mobile devices */
+@media (max-width: 768px) {
+  .carousel__item {
+    width: 100%; /* Increase size for mobile */
+  }
+
+  .carousel__item img {
+    width: 100%; /* Ensure the images take full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
 
